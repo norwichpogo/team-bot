@@ -1,0 +1,20 @@
+{
+    "guild": {
+        "purpose": "main",
+        "id": "GUILD_ID",
+        "channels": [
+            { "purpose": "registration", "id": "CHANNEL_ID" },
+            { "purpose": "verification", "id": "CHANNEL_ID" },
+            { "purpose": "verified",     "id": "CHANNEL_ID" },
+            { "purpose": "rejected",     "id": "CHANNEL_ID" }
+        ],
+        "roles": [
+            { "purpose":"verified", "id": "ROLE_ID" }
+        ],
+        "emoji": [
+            { "purpose": "verify", "id": "EMOJI_ID" },
+            { "purpose": "reject", "id": "EMOJI_ID" },
+            { "purpose": "unsure", "id": "EMOJI_ID" }
+        ]
+    }
+}

@@ -1,0 +1,4 @@
+node_modules
+setup.json
+.env
+data/main_server_data.json

@@ -1,0 +1,46 @@
+{
+  "name": "team-bot",
+  "description": "A Discord bot for managing a Pokémon Go team server",
+  "version": "0.1.0",
+  "homepage": "https://github.com/norwichpogo/team-bot",
+  "author": {
+    "name": "norwichpogo",
+    "email": "norwich.pokemon.go@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/norwichpogo/team-bot"
+  },
+  "bugs": {
+    "url": "https://github.com/norwichpogo/team-bot/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "lint": "grunt lint",
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "discord.js-wrapper": "github:arandomoracle/discord.js-wrapper",
+    "dotenv": "^5.0.0",
+    "grunt": "^1.0.2",
+    "moment": "^2.22.1",
+    "moment-timezone": "^0.5.16",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "discord.js-tests": "github:arandomoracle/discord.js-tests",
+    "grunt-contrib-nodeunit": "^2.0.0",
+    "gruntify-eslint": "^4.0.0"
+  },
+  "keywords": [
+    "Pokemon",
+    "Pokemon Go",
+    "team",
+    "Discord"
+  ]
+}
